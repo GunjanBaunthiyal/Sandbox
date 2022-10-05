@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
    
 html {
   scroll-behavior: smooth;
@@ -89,7 +90,7 @@ hr{
   background-color:var(--second-color);
   border-radius: 2rem;
   color:white;
-  padding: 1rem;
+  padding: 0.5rem;
   margin: 1.5rem;
 }
 
@@ -99,7 +100,7 @@ hr{
   border:1px solid var(--second-color);
   margin: 1rem auto;
   max-width: 140px;
-  padding: 1rem;
+  padding: 0.5rem;
 }
 
 
@@ -256,6 +257,7 @@ hr{
   margin: 4rem;
   max-width: 900px;
   border:solid 2px var(--primary-color);
+  margin-left: 250px;
   
 }
 
@@ -271,9 +273,28 @@ hr{
 /** blogs **/
 
 .showcase-blog {
-  padding-bottom: 6rem;
+  padding-bottom: 3rem;
+}
+.showcase-blog h1{
+  font-family: Slabo 27px, serif;
+}
+.showcase-blog p{
+  font-family: Slabo 27px, serif;
 }
 
+.blog1-main{
+  letter-spacing: 1rem;
+  word-spacing: 0.4rem;
+  justify-content: center;
+  padding-bottom: 3rem;
+}
+.blog1-main h3{
+  padding:2rem;
+}
+
+.blog1-main h3 span{
+  font-weight: lighter;
+}
 @media (max-width: 900px) {
   body {
     max-width: 95%;
